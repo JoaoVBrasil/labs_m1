@@ -1,0 +1,29 @@
+{
+  "project": "lab_m1_3_nome_sobrenome",
+  "language": "python",
+  "operations": [
+    "convolution",
+    "mean_filter",
+    "weighted_mean",
+    "laplacian",
+    "laplacian_enhance",
+    "sobel_gx",
+    "sobel_gy",
+    "sobel_approx",
+    "sobel_euclidean"
+  ],
+  "generated_outputs": [
+    "identity_copy.png",
+    "identity_replicate.png",
+    "laplacian_enhanced.png",
+    "laplacian_visual.png",
+    "mean_3x3.png",
+    "mean_5x5.png",
+    "sobel_approx.png",
+    "sobel_euclidean.png",
+    "sobel_gx.png",
+    "sobel_gy.png",
+    "weighted_mean_3x3.png"
+  ],
+  "tests_status": "passed"
+}

@@ -1,0 +1,22 @@
+M1.3 — Registro de experimentos
+
+Entrada principal: images/input/test.png (128x96, grayscale)
+Borda: replicate, salvo nos testes de identidade copy/replicate.
+Kernels:
+- identity 3x3
+- mean 3x3
+- weighted mean 3x3
+- mean 5x5
+- Laplacian 3x3
+- Sobel Gx/Gy 3x3
+
+Saídas:
+- identity_copy.png / identity_replicate.png
+- mean_3x3.png / weighted_mean_3x3.png / mean_5x5.png
+- laplacian_visual.png / laplacian_enhanced.png
+- sobel_gx.png / sobel_gy.png / sobel_approx.png / sobel_euclidean.png
+
+Casos sintéticos:
+constant.png, impulse.png, step_vertical.png, step_horizontal.png, border_shapes.png
+
+A resposta bruta do Laplaciano foi preservada em results/laplacian_raw.csv antes da conversão para uint8.
